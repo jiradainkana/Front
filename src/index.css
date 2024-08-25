@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite/dist/flowbite.css';
+
+@layer base {
+    body{
+        background-color: white;
+    }
+    .slider > div {
+        margin: 0 10px; 
+      }
+
+}
